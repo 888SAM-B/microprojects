@@ -1,0 +1,130 @@
+
+body{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='750' preserveAspectRatio='none' viewBox='0 0 1440 750'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1075%26quot%3b)' fill='none'%3e%3crect width='1440' height='750' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1076%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1241.1547333065691 528.1413218711162L1149.4765009741411 381.42548110808406 1002.760660211109 473.103713440512 1094.438892543537 619.8195542035443z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1073.1574508412386 252.8036582890569L938.7445071906102 278.9308878279768 964.8717367295301 413.3438314786052 1099.2846803801585 387.2166019396853z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M785.737%2c488.818C813.159%2c489.12%2c840.355%2c479.608%2c855.467%2c456.724C872.235%2c431.332%2c878.501%2c398.041%2c862.957%2c371.882C847.666%2c346.149%2c815.664%2c339.952%2c785.737%2c339.375C754.43%2c338.771%2c718.875%2c341.705%2c703.177%2c368.799C687.454%2c395.936%2c700.842%2c429.377%2c718.617%2c455.217C733.816%2c477.311%2c758.922%2c488.523%2c785.737%2c488.818' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M220.721%2c313.515C279.407%2c314.285%2c329.715%2c273.609%2c356.859%2c221.572C382.032%2c173.314%2c375.656%2c116.367%2c348.015%2c69.479C320.849%2c23.396%2c274.114%2c-6.081%2c220.721%2c-9.361C160.412%2c-13.066%2c93.107%2c-0.475%2c63.107%2c51.974C33.241%2c104.189%2c59.581%2c166.56%2c90.629%2c218.081C120.381%2c267.451%2c163.084%2c312.759%2c220.721%2c313.515' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1379.1186847644076-48.7527988727094L1236.5603523297336 11.599347441004142 1343.1985486596498 94.91423747016913z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1157.888%2c186.792C1203.607%2c183.865%2c1232.987%2c142.394%2c1253.643%2c101.502C1271.885%2c65.388%2c1278.299%2c23.418%2c1258.132%2c-11.658C1237.908%2c-46.833%2c1198.462%2c-64.772%2c1157.888%2c-65.039C1116.801%2c-65.309%2c1078.048%2c-47.231%2c1055.333%2c-12.993C1029.773%2c25.534%2c1017.14%2c74.157%2c1038.254%2c115.289C1060.994%2c159.587%2c1108.196%2c189.973%2c1157.888%2c186.792' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1075'%3e%3crect width='1440' height='750' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='11.98%25' y1='-23%25' x2='88.02%25' y2='123%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1076'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+        background-position: center;
+        background-size: cover;
+    
+}
+ .main{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width:500px;
+        margin:20px;
+        margin-top: 0px;
+        margin-bottom: -50px;
+        height: 700px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        border-width: 0px;
+        background-color: #7fffd4f6;
+        border-radius: 25px;
+        transform: scale(0.79);
+}
+ br{
+        display: block;
+}
+ button{
+        width: 20%;
+        height: 80px;
+        padding: 25px;
+        margin: 3px;
+        border: none;
+        border-radius: 20px;
+        font-size: 18px;
+        color: rgb(73, 70, 70);
+        cursor: pointer;
+}
+ .btns{
+        text-align: center;
+}
+ input{
+        background-color: white;
+        padding: 20px;
+        margin: 25px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        height: 88px;
+        border: none;
+        border-radius: 25px;
+        font-size: 25px;
+        color: rgb(73, 70, 70);
+        cursor:calc();
+}
+ .op{
+        background-color:#ff7faad5;
+        color: white;
+}
+ .eq{
+        background-color:#ffd47fda ;
+}
+ .eql{
+        background-color: #947fffdc;
+        color: white;
+}
+ button:hover{
+        background-color:rgb(221, 214, 214) ;
+}
+ .op:hover{
+        background-color:#ff4a86d5;
+        color: white;
+}
+ .eq:hover{
+        background-color:#f8c255 ;
+}
+ .eql:hover{
+        background-color: #6a4ff3dc;
+        color: white;
+}
+ h2{
+        text-align: center;
+        color:white;
+        font-size: 28px;
+        -webkit-text-stroke-width:0.5px;
+        -webkit-text-stroke-color: black;
+    
+}
+ h3{
+        
+        margin-bottom: 0px;
+        color: white;
+        font-size: 30px;
+        font-family:sans-serif;
+        position: relative;
+        top:65px
+}
+ .foot{
+        background-color: #171717;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: white;
+        font-size: 15px;
+        font-family:sans-serif;
+        display: block;
+}
+ #all{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+   
+}
+ @media screen and (max-width:600px) {
+        body{
+            transform: scale(0.70);
+    }   
+}
+ h1{
+        color:white
+}
