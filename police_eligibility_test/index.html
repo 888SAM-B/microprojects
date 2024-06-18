@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Police Fitness Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body{
+    transform: scaleY(0.85);
+    }
+    @media screen and (max-width:500px){
+     .every{
+       position:relative;
+       bottom:0px;
+       top:50px;
+     }
+  }
+    </style>
+    
+<body>
+    <h2 style="color: aliceblue; padding: 15px; margin: 0px;
+     text-align: center; font-size: 30px; text-shadow: 2PX 2px 2px  black; background: rgba(255, 255, 255, 0.06);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            width: 100%;
+            position:relative;
+            bottom:59px;
+            right:7px;">POLICE FITNESS TEST</h2>
+    <div class="form" id="forms" style="position:relative; bottom:50px;">
+    <div class="table">
+    <form>
+    <table class="br first td">
+    <tr>
+    <td><label for="name">Name<span>*</span> </label></td>
+    <td>:</td>
+    <td><input class="br"id="name" type="text"></td>
+    </tr>
+    <tr>
+    <td><label for="age">Age<span>*</span> </label></td>
+    <td>:</td>
+    <td><input class="br"id="age" type="number"></td>
+    </tr>
+    <tr>
+    <td><label for="military">Are you an Ex Military man<span>*</span> </label></td>
+    <td>:</td>
+    <td class="checks"><input class="br"type="radio" name="military" id="military"><p style="padding: 0; margin: 0; margin-right: 15px; display: inline;position: relative;bottom:2px;">Yes</p><input class="br"type="radio" id="no" name="military"><p style="padding: 0; margin: 0; display: inline;position: relative;bottom:2px;">No</p></td>
+    </tr>
+    <tr>
+    <td><label for="height">Height<span>*</span> </label></td>
+    <td>:</td>
+    <td><input class="br"id="height" type="number"></td>
+    </tr>
+    <tr>
+    <td><label for="weight">Weight<span>*</span> </label></td>
+    <td>:</td>
+    <td><input class="br"id="weight" type="number"></td>
+    </tr>
+    </table>
+    </form>
+    <form>
+    <table class="br second td">
+    <tr>
+    <td><label for="highjump">High jump Score<span>*</span> </label></td>
+    <td>:</td>
+    <td><input placeholder="0-5" class="br"id="hj" type="number" min="0" max="5"></td>
+    </tr>
+    <tr>
+    <td><label for="longjump">Long jump Score<span>*</span> </label></td>
+    <td>:</td>
+    <td><input placeholder="0-5" class="br"id="lj" type="number" min="0" max="5"></td>
+    </tr>
+    <tr>
+        <td><label for="running">Running Score<span>*</span> </label></td>
+        <td>:</td>
+        <td><input placeholder="0-5" class="br"id="run" type="number" min="0" max="5"></td>
+    </tr>
+    <tr>
+        <td><label for="climbing">Rope climbing Score<span>*</span> </label></td>
+        <td>:</td>
+        <td><input placeholder="0-5" class="br"id="climb" type="number" min="0" max="5"></td>
+    </tr>
+    </table>
+    </form>
+</div>
+
+    <button onclick="fun()">SUBMIT</button>
+</div>
+    <!-- Output  starts-->
+    <div class="every" id="every" style="display: none; text-align: center; position:relative; bottom:100px;">
+    <section class="all br" id="all">
+    <section class="main br">
+    <section class="tick br">
+        <h2 id="ageh1">Age</h2>
+        <div class="circle br"  id="agetick"></div>
+    </section>
+    <section class="tick br">
+        <h2 id="ageh1">BMI</h2>
+        <div class="circle br " id="bmitick"></div>
+    </section>
+    <section class="tick br">
+        <h2 id="ageh1">High-Jump</h2>
+        <div class="circle br" id="hjtick"></div>
+    </section>
+    <section class="tick br">
+        <h2 id="ageh1">Long-Jump</h2>
+        <div class="circle br" id="ljtick"></div>
+    </section>
+    <section class="tick br">
+        <h2 id="ageh1">Running</h2>
+        <div class="circle br" id="runtick"></div>
+    </section>
+    <section class="tick br">
+        <h2 id="ageh1">Climbing</h2>
+        <div class="circle br" id="climbtick"></div>
+    </section>
+</section>
+    <section class="reasons br">
+        <ul id="rsn">
+            <li id="res"></li>
+        </ul>
+    </section>
+</section>
+<a href="index.html"><button>REFRESH</button></a>
+</div>
+    <!-- output  ends-->
+</body>
+<script src="script.js"></script>
+</html>
